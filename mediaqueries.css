@@ -59,8 +59,7 @@
   background-size: 100% 100%;
 }
 .s5{
-  background:url('./bgmobile-view.png');
-  background-size:cover;
+  background-color: #AB0061;
 }
 .s6{
   background-color: #AB0061;
@@ -104,12 +103,10 @@
 
 }
 .s5{
-  background:url('./Gold\ and\ Maroon\ Indian\ Wedding\ Invitation\ Card.png');
-  background-size:cover;
- 
+  background-color: #AB0061;
 }
 .s6{
-  background:url('./Orange\ Floral\ Wedding\ Invitation\ Card.png');
+  background-color: #AB0061;
   background-size:cover;
   
 }
@@ -149,12 +146,10 @@
   background-size: 100% 100%;
 }
 .s5{
-  background:url('./Gold\ and\ Maroon\ Indian\ Wedding\ Invitation\ Card.png');
-  background-size:cover;
-  
+  background-color: #AB0061;
 }
 .s6{
-  background:url('./Orange\ Floral\ Wedding\ Invitation\ Card.png');
+  background-color: #AB0061;
   background-size:cover;
   
 }
