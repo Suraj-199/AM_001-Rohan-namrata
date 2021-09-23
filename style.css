@@ -1,38 +1,37 @@
 /**...........................................*/
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Cookie&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Cookie&display=swap");
 
 /* font-family: 'Great Vibes', cursive; */
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body{
-    overflow: hidden;
+body {
+  overflow: hidden;
 }
 section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* map styling */
-.map-wrapper{
+.map-wrapper {
   /* background-color: blanchedalmond; */
   /* background-color: #F85395; */
   padding: 10px 0 10px 0;
-  background-image: url('map-bg.png');
+  background-image: url("map-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-.map-container{
+.map-container {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -40,7 +39,7 @@ section {
   margin: 0 auto;
   /* border: 2px solid black; */
 }
-.right-section{
+.right-section {
   height: 50%;
   width: 45%;
   padding: 5px;
@@ -49,8 +48,7 @@ section {
   align-items: center;
   /* border: 2px solid black; */
 }
-.left-section{
-
+.left-section {
   width: 40%;
   display: flex;
   justify-content: center;
@@ -59,7 +57,7 @@ section {
   /* border: 2px solid black; */
 }
 
-.rightest-section{
+.rightest-section {
   width: 40%;
   display: flex;
   justify-content: center;
@@ -67,11 +65,11 @@ section {
   flex-direction: column;
   /* border: 2px solid black; */
 }
-.map-container iframe{
+.map-container iframe {
   width: 80%;
   height: 350px;
 }
-.map-container h3{
+.map-container h3 {
   text-align: center;
   text-transform: uppercase;
   padding: 10px 20px;
@@ -81,80 +79,80 @@ section {
   font-size: 26px;
   /* font-family: 'Cardo', serif; */
   /* font-family: 'Cinzel Decorative', cursive; */
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
   /* border: 2px solid black; */
 }
-.left-section div p{
+.left-section div p {
   font-size: 28px;
   padding: 20px 10px;
   text-align: center;
   /* font-family: 'Bona Nova', serif; */
   color: #fad25a;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   /* border: 2px solid black; */
   /* margin-top: -20px; */
 }
-.rightest-section div p{
+.rightest-section div p {
   font-size: 28px;
   padding: 20px 10px;
   text-align: center;
   /* font-family: 'Bona Nova', serif; */
   color: #fad25a;
-  font-family: 'Cookie', cursive;
+  font-family: "Cookie", cursive;
   /* border: 2px solid black; */
   /* margin-top: -20px; */
 }
-#second-para{
+#second-para {
   margin-top: -20px;
 }
-.line{
-  background-color: #FFC37C;
+.line {
+  background-color: #ffc37c;
   width: 90%;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   height: 2px;
 }
-#direction-header{
+#direction-header {
   text-align: center;
   text-transform: uppercase;
   font-size: 50px;
   /* font-family: 'Cardo', serif; */
-  font-family: 'Cinzel Decorative', cursive;
-  color:#fad25a;
-
+  font-family: "Cinzel Decorative", cursive;
+  color: #fad25a;
 }
 /**button on map page*/
 /* CSS */
 .button-73 {
   appearance: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 40em;
   border-style: none;
-  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-shadow: #adcfff 0 -12px 6px inset;
   box-sizing: border-box;
   color: #580000;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,sans-serif;
+  font-family: -apple-system, sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
-  letter-spacing: -.24px;
-  margin-top: 4%;
+  letter-spacing: -0.24px;
+  margin-top: 30px;
+  
   outline: none;
   padding: 1rem 1.3rem;
   quotes: auto;
   text-align: center;
   text-decoration: none;
-  transition: all .15s;
+  transition: all 0.15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
 
 .button-73:hover {
-  background-color: #FFC229;
-  box-shadow: #FF6314 0 -6px 8px inset;
+  background-color: #ffc229;
+  box-shadow: #ff6314 0 -6px 8px inset;
   transform: scale(1.125);
 }
 
@@ -165,50 +163,56 @@ section {
 @media (min-width: 768px) {
   .button-73 {
     font-size: 1.5rem;
-    padding: .75rem 2rem;
+    padding: 0.75rem 2rem;
+    margin-top: 0px;
   }
 }
-.btn-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@media screen and (max-width: 768px){
-  
+
+
+
+@media screen and (max-width: 768px) {
   /* for responsive map area */
-  .map-wrapper{
+  .map-wrapper {
     top: 0%;
     margin-top: 0%;
     padding-top: 0%;
   }
 
-  #direction-header{
+  #direction-header {
     font-size: 30px;
   }
-  .map-container{
+  .map-container {
     display: flex;
     flex-direction: column;
     padding: 0 0;
   }
-  .left-section{
+  .left-section {
     width: 100%;
   }
-  .right-section{
-    width:100%;
-  
+  .right-section {
+    width: 100%;
   }
-  .rightest-section{
+  .rightest-section {
     display: none;
   }
-  .left-section div p{
+  .left-section div p {
     font-size: 1.5rem;
   }
-  .map-container iframe{
+  .map-container iframe {
     width: 100%;
     height: 250px;
   }
+  .button-73 {
+    font-size: 1.5rem;
+    padding: 0.75rem 2rem;
+    margin-top: 25px;
   }
+}
 /* form styling */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
@@ -219,7 +223,6 @@ section {
 }
 
 .s6 {
-  background: url(./no.bg.png);
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -233,37 +236,33 @@ section {
   top: 5%;
   width: 30vw;
   height: 32vw;
-  
 
-background: rgba( 255, 255, 255, 0.1 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 3.5px );
--webkit-backdrop-filter: blur( 3.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
   padding: 10px;
   border-radius: 0.5em;
   overflow: hidden;
 }
-.form-head1{
+.form-head1 {
   display: flex;
   justify-self: center;
   font-size: 40px;
   color: gold;
   justify-content: center;
-  font-family: 'Cinzel Decorative', cursive;
-
-
+  font-family: "Cinzel Decorative", cursive;
 }
-.form-head2{
+.form-head2 {
   display: flex;
   color: gold;
-  
-   font-weight: 100;
-  font-family: 'Dancing Script', cursive;
-}
 
+  font-weight: 100;
+  font-family: "Dancing Script", cursive;
+}
 
 .container .body_txt {
   flex-basis: 60%;
@@ -271,7 +270,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 .body_txt h1 {
   font-size: 50px;
@@ -280,7 +279,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .body_txt h2 {
   margin: 5px 0;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 25px;
   font-weight: 500;
   text-decoration: solid;
@@ -292,7 +291,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   outline: none;
   width: 90%;
   padding: 8px;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
   font-size: 15px;
   height: 24px;
   border-radius: 0.2rem;
@@ -307,7 +306,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   margin-top: 5%;
   padding: 5%;
   outline: none;
- 
 }
 .inps input[type="name"] {
   background: rgb(251 251 251);
@@ -315,7 +313,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   outline: none;
   width: 90%;
   padding: 8px;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
   font-size: 15px;
   height: 24px;
   border-radius: 0.2rem;
@@ -333,7 +331,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   outline: none;
   width: 90%;
   padding: 8px;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
   font-size: 15px;
   height: 24px;
   border-radius: 0.2rem;
@@ -341,23 +339,22 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .inps input[type="number"]:focus {
   border: 2px solid #ff0037;
-  transform: scale(1.02) ;
+  transform: scale(1.02);
   -webkit-transition: transform 0.5s ease-in;
 }
-textarea{
+textarea {
   background: rgb(251 251 251);
   border: 2px solid rgb(150, 150, 150);
   outline: none;
   width: 90%;
   margin-top: 4%;
   padding: 8px;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
   font-size: 15px;
   height: 5rem;
   border-radius: 0.2rem;
   transition: 0.12s;
   resize: none;
-
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -366,7 +363,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -387,22 +384,20 @@ input[type=number] {
   user-select: none;
 }
 
-
 @media screen and (max-width: 870px) {
   .container {
     width: 90vw;
     height: auto;
-    background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4.5px );
-    -webkit-backdrop-filter: blur( 3.5px );
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(3.5px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 10px;
     display: block;
   }
 
- 
   .container .body_txt h1 {
     font-size: 0.8em;
     line-height: 25px;
@@ -411,10 +406,10 @@ input[type=number] {
   .container .inps button {
     width: 90%;
   }
-  .review-area{
+  .review-area {
     width: 100%;
   }
-  .footer-text{
+  .footer-text {
     font-size: 12px;
     justify-content: center;
     align-items: center;
@@ -425,100 +420,96 @@ input[type=number] {
 /* CSS */
 /* CSS */
 .button-57 {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #18181a;
-    color: #18181a;
-    display: inline-block;
-    font-weight: 600;
-    letter-spacing: 0.15rem;
-    font-size: 20px;
-    text-transform: uppercase;
-    line-height: 15px;
-    padding: 18px 18px 17px;
-    text-decoration: none;
-    cursor: pointer;
-    background: #fff;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .button-57 span:first-child {
-    position: relative;
-    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
-    z-index: 10;
-  }
-  
-  .button-57 span:last-child {
-    color: white;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
-    z-index: 100;
-    opacity: 0;
-    top: 50%;
-    left: 50%;
-    transform: translateY(225%) translateX(-50%);
-    height: 14px;
-    line-height: 13px;
-  }
-  
-  .button-57:after {
-    content: "";
-    position: absolute;
-    bottom: -50%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    transform-origin: bottom center;
-    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
-    transform: skewY(9.3deg) scaleY(0);
-    z-index: 50;
-  }
-  
-  .button-57:hover:after {
-    transform-origin: bottom center;
-    transform: skewY(9.3deg) scaleY(2);
-  }
-  
-  .button-57:hover span:last-child {
-    transform: translateX(-50%) translateY(-100%);
-    opacity: 1;
-    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
-  }
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
 
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
 
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
 
 /**leaves*/
 
 /* Defines the position and dimensions of the leafContainer div */
-#leafContainer 
-{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin-left: 10%;
+#leafContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: 10%;
 }
 
 /* This CSS rule is applied to all div elements in the leafContainer div.
    It styles and animates each leafDiv.
 */
-#leafContainer > div 
-{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    
-    /* We use the following properties to apply the fade and drop animations to each leaf.
+#leafContainer > div {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+  /* We use the following properties to apply the fade and drop animations to each leaf.
        Each of these properties takes two values. These values respectively match a setting
        for fade and drop.
     */
-    -webkit-animation-iteration-count: infinite, infinite;
-    -webkit-animation-direction: normal, normal;
-    -webkit-animation-timing-function: linear, ease-in;
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-direction: normal, normal;
+  -webkit-animation-timing-function: linear, ease-in;
 }
 
 /* This CSS rule is applied to all img elements directly inside div elements which are
@@ -526,181 +517,184 @@ input[type=number] {
    inside the leafDivs which are created in the createALeaf() function.
 */
 #leafContainer > div > img {
-     position: absolute;
-     width: 100px;
-     height: 100px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
 
-    /* We use the following properties to adjust the clockwiseSpin or counterclockwiseSpinAndFlip
+  /* We use the following properties to adjust the clockwiseSpin or counterclockwiseSpinAndFlip
        animations on each leaf.
        The createALeaf function in the Leaves.js file determines whether a leaf has the 
        clockwiseSpin or counterclockwiseSpinAndFlip animation.
     */
-     -webkit-animation-iteration-count: infinite;
-     -webkit-animation-direction: alternate;
-     -webkit-animation-timing-function: ease-in-out;
-     -webkit-transform-origin: 50% -100%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-transform-origin: 50% -100%;
 }
-
 
 /* Hides a leaf towards the very end of the animation */
-@-webkit-keyframes fade
-{
-    /* Show a leaf while into or below 95 percent of the animation and hide it, otherwise */
-    0%   { opacity: 1; }
-    95%  { opacity: 1; }
-    100% { opacity: 0; }
+@-webkit-keyframes fade {
+  /* Show a leaf while into or below 95 percent of the animation and hide it, otherwise */
+  0% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-
 /* Makes a leaf fall from -300 to 600 pixels in the y-axis */
-@-webkit-keyframes drop
-{
-    /* Move a leaf to -300 pixels in the y-axis at the start of the animation */
-    0%   { -webkit-transform: translate(0px, -50px); }
-    /* Move a leaf to 600 pixels in the y-axis at the end of the animation */
-    100% { -webkit-transform: translate(0px, 650px); }
+@-webkit-keyframes drop {
+  /* Move a leaf to -300 pixels in the y-axis at the start of the animation */
+  0% {
+    -webkit-transform: translate(0px, -50px);
+  }
+  /* Move a leaf to 600 pixels in the y-axis at the end of the animation */
+  100% {
+    -webkit-transform: translate(0px, 650px);
+  }
 }
 
 /* Rotates a leaf from -50 to 50 degrees in 2D space */
-@-webkit-keyframes clockwiseSpin
-{
-    /* Rotate a leaf by -50 degrees in 2D space at the start of the animation */
-    0%   { -webkit-transform: rotate(-50deg); }
-    /*  Rotate a leaf by 50 degrees in 2D space at the end of the animation */
-    100% { -webkit-transform: rotate(50deg); }
+@-webkit-keyframes clockwiseSpin {
+  /* Rotate a leaf by -50 degrees in 2D space at the start of the animation */
+  0% {
+    -webkit-transform: rotate(-50deg);
+  }
+  /*  Rotate a leaf by 50 degrees in 2D space at the end of the animation */
+  100% {
+    -webkit-transform: rotate(50deg);
+  }
 }
-
 
 /* Flips a leaf and rotates it from 50 to -50 degrees in 2D space */
-@-webkit-keyframes counterclockwiseSpinAndFlip 
-{
-    /* Flip a leaf and rotate it by 50 degrees in 2D space at the start of the animation */
-    0%   { -webkit-transform: scale(-1, 1) rotate(50deg); }
-    /* Flip a leaf and rotate it by -50 degrees in 2D space at the end of the animation */
-    100% { -webkit-transform: scale(-1, 1) rotate(-50deg); }
+@-webkit-keyframes counterclockwiseSpinAndFlip {
+  /* Flip a leaf and rotate it by 50 degrees in 2D space at the start of the animation */
+  0% {
+    -webkit-transform: scale(-1, 1) rotate(50deg);
+  }
+  /* Flip a leaf and rotate it by -50 degrees in 2D space at the end of the animation */
+  100% {
+    -webkit-transform: scale(-1, 1) rotate(-50deg);
+  }
 }
 
-
-
-
-
-  /**Audio button*/
-  #player-container #play-pause {
-    cursor: pointer;
-    position: fixed;
-    top: 90%;
-    left: 80%;
-    text-indent: -99999px;
-    height:50px;
-    width: 60px;
-    padding: 12px 18px;
-    z-index: 2;
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
-      background-repeat: no-repeat!important;
-      background-position: center;
-      background-size: 16px;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:30px;
-    background-color: #FF5733;
-    overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    border-radius: 20%;
+/**Audio button*/
+#player-container #play-pause {
+  cursor: pointer;
+  position: fixed;
+  top: 90%;
+  left: 80%;
+  text-indent: -99999px;
+  height: 50px;
+  width: 60px;
+  padding: 12px 18px;
+  z-index: 2;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  background-color: #ff5733;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  border-radius: 20%;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
   }
-  @keyframes float {
-    0% {
-      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-      transform: translatey(0px);
-    }
-    50% {
-      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-      transform: translatey(-20px);
-    }
-    100% {
-      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-      transform: translatey(0px);
-    }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
   }
-  
-  .play {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
   }
-  .pause {
-     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
-  }
+}
 
+.play {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+}
+.pause {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==) !important;
+}
 
-  
-  .footer-container{
-    margin-top: 2%;
-    display: flex;
-    width: 100%;
-    position: relative;
-    bottom: 0%;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+.footer-container {
+  margin-top: 2%;
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: 0%;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-  }
-  @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
- .social-container {
-	 width: 400px;
-	 margin:  auto;
-	 text-align: center;
+.social-container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
 }
- .social-icons {
-	 padding: 0;
-	 list-style: none;
-	 margin: 1em;
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
 }
- .social-icons li {
-	 display: inline-block;
-	 margin: 0.15em;
-	 position: relative;
-	 font-size: 1.2em;
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
 }
- .social-icons i {
-	 color: #fff;
-	 position: absolute;
-	 top: 21px;
-	 left: 21px;
-	 transition: all 265ms ease-out;
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  transition: all 265ms ease-out;
 }
- .social-icons a {
-	 display: inline-block;
+.social-icons a {
+  display: inline-block;
 }
- .social-icons a:before {
-	 transform: scale(1);
-	 -ms-transform: scale(1);
-	 -webkit-transform: scale(1);
-	 content: " ";
-	 width: 60px;
-	 height: 60px;
-	 border-radius: 100%;
-	 display: block;
-	 background: linear-gradient(45deg, #00b5f5, #002a8f);
-	 transition: all 265ms ease-out;
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #00b5f5, #002a8f);
+  transition: all 265ms ease-out;
 }
- .social-icons a:hover:before {
-	 transform: scale(0);
-	 transition: all 265ms ease-in;
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
 }
- .social-icons a:hover i {
-	 transform: scale(2.2);
-	 -ms-transform: scale(2.2);
-	 -webkit-transform: scale(2.2);
-	 color: #00b5f5;
-	 background: -webkit-linear-gradient(45deg, #00b5f5, #002a8f);
-	 -webkit-background-clip: text;
-	 -webkit-text-fill-color: transparent;
-	 transition: all 265ms ease-in;
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #00b5f5;
+  background: -webkit-linear-gradient(45deg, #00b5f5, #002a8f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
 }
- 
